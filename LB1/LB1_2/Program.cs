@@ -31,7 +31,7 @@ namespace LB1_2
             int[,] multiArr = myArr.MyMultiArray(lFirst, lSecond);
             myArr.PrintMultiArr(multiArr, lFirst, lSecond);
             myArr.ChangeMultiArr(multiArr, lFirst, lSecond);
-            myArr.PrintMultiArr(multiArr, lFirst, lSecond);
+           
 
             Console.ReadKey();
         }

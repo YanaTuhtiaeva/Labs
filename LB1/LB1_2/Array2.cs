@@ -66,7 +66,7 @@ namespace LB1_2
             Console.WriteLine();
         }
 
-        //Методы создания и наполнения одномерного массива 
+        //Методы создания и наполнения многомерного массива 
 
         public int[,] MyMultiArray(int n, int m)
         {

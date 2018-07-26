@@ -13,21 +13,21 @@ namespace LB1_1
         public int[] CreateSimpleArray(int n)
         {
 
-            int[] MySimpleArr = new int[n];
+            int[] mySimpleArr = new int[n];
 
             for (int i = 0; i < n; i++)
             {
                 try
                 {
                     Console.WriteLine("Введите {0}-й элемент массива");
-                    MySimpleArr[i] = int.Parse(Console.ReadLine());
+                    mySimpleArr[i] = int.Parse(Console.ReadLine());
                 }
                 catch
                 {
                     Console.WriteLine("Вы ввели недопустимый символ");
                 }
             }
-            return MySimpleArr;
+            return mySimpleArr;
         }
         // Метод изменения массива
         public void Change(int[] MySimpleArr)
